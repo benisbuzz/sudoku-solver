@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sudoku-solver"
+version = "0.1.0"
+description = ""
+authors = ["benisbuzz <ben@danziger.uk>"]
+readme = "README.md"
+packages = [{include = "sudoku_solver"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ipykernel = "^6.29.4"
+numpy = "^1.26.4"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
